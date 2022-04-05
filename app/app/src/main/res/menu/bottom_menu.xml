@@ -3,12 +3,12 @@
 
     <item
         android:id="@+id/searchMainFragment"
-        android:title="Search"
+        android:title="Søk"
         android:icon="@drawable/ic_search"
         />
     <item
-
-        android:title="Profile"
+        android:id="@+id/profileFragment"
+        android:title="Profil"
         android:icon="@drawable/ic_person"
         />
 </menu>
