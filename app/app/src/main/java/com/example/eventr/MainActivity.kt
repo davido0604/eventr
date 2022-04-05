@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(setOf(R.id.searchMainFragment, R.id.profileFragment))
         setupActionBarWithNavController(navController, appBarConfiguration)
         // bla bla
+        // sika
 
         bottomNavigationView.setupWithNavController(navController)
     }
