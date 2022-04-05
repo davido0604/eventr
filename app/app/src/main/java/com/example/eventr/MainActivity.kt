@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         // bla bla
         // sika
+        // rnjgokehbgoejbkrn
 
         bottomNavigationView.setupWithNavController(navController)
     }
