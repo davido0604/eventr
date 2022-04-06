@@ -10,12 +10,12 @@ export default {
       },
       {
          title: 'Road Address',
-         name: 'road_address',
+         name: 'roadAddress',
          type: 'string',
       },
       {
          title: 'Post Number',
-         name: 'post_number',
+         name: 'postNumber',
          type: 'number',
       },
       {
