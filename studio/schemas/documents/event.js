@@ -1,6 +1,6 @@
 export default {
-   title: 'Events',
-   name: 'events',
+   title: 'Event',
+   name: 'event',
    type: 'document',
    fields: [
       {
@@ -12,6 +12,15 @@ export default {
          title: 'Description',
          name: 'description',
          type: 'text',
+      },
+      {
+         title: 'Location',
+         name: 'location',
+         type: 'string',
+         of: [{
+            type: 'reference',
+            to: [{type: 'location'}], 
+         }]
       },
       {
          title: 'Picture',
