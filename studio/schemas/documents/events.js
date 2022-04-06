@@ -9,14 +9,6 @@ export default {
          type: 'string',
       },
       {
-         title: 'Slug',
-         name: 'slug',
-         type: 'slug',
-         options: {
-            source: 'title'
-         },
-      },
-      {
          title: 'Description',
          name: 'description',
          type: 'text',
@@ -30,6 +22,11 @@ export default {
          }
       },
       {
+         title: 'Price',
+         name: 'price',
+         type: 'string',
+      },
+      {
          title: 'Tags',
          name: 'tags',
          type: 'array',
@@ -40,13 +37,24 @@ export default {
          // referer til andre dokumenter via dropdown menu
       },
       {
-         title: 'Date',
-         name: 'date',
-         type: 'date',
+         title: 'Start date and time',
+         name: 'StartDateAndTime',
+         type: 'datetime',
          options: {
             dateFormat: 'DD-MMM-YYYY',
+            timeFormat: 'HH:mm',
             calenderTodatLabel: 'Today'
          }
-      }
+      },
+      {
+         title: 'End date and time',
+         name: 'EndDateAndTime',
+         type: 'datetime',
+         options: {
+            dateFormat: 'DD-MMM-YYYY',
+            timeFormat: 'HH:mm',
+            calenderTodatLabel: 'Today'
+         }
+      },
    ]
 }
