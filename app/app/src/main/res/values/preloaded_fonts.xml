@@ -2,5 +2,11 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/kufam</item>
+<<<<<<< Updated upstream
+=======
+        <item>@font/kufam_bold</item>
+        <item>@font/kufam_extrabold</item>
+        <item>@font/kufam_medium</item>
+>>>>>>> Stashed changes
     </array>
 </resources>
