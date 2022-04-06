@@ -1,2 +1,2 @@
 # eventr
-Samarbeidsprosjekt med App og Frontend
+Collaborative project with App og Frontend
