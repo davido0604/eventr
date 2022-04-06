@@ -59,7 +59,7 @@ export default {
          type: 'array',
          of: [{
             type: 'reference',
-            to: [{type: 'tags'}], 
+            to: [{type: 'tag'}], 
          }]
          // referer til andre dokumenter via dropdown menu
       },
