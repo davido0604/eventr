@@ -23,6 +23,24 @@ export default {
          }]
       },
       {
+         title: 'Hosts',
+         name: 'hosts',
+         type: 'array',
+         of: [{
+            type: 'reference',
+            to: [{type: 'person'}, {type: 'organization'}], 
+         }]
+      },
+      {
+         title: 'Speakers',
+         name: 'speakers',
+         type: 'array',
+         of: [{
+            type: 'reference',
+            to: [{type: 'person'}], 
+         }]
+      },
+      {
          title: 'Picture',
          name: 'picture',
          type: 'image',

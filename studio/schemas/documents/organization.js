@@ -4,18 +4,13 @@ export default {
    type: 'document',
    fields: [
       {
-         title: 'Organization Name',
-         name: 'organization_name',
+         title: 'Name',
+         name: 'name',
          type: 'string',
       },
       {
-         title: 'Organization Number',
-         name: 'organization_number',
-         type: 'number',
-      },
-      {
-         title: 'E-post',
-         name: 'epost',
+         title: 'Email',
+         name: 'email',
          type: 'string',
       },
    ]

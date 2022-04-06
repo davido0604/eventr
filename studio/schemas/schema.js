@@ -6,7 +6,7 @@ import tag from './documents/tag.js'
 import attendee from './documents/attendee.js'
 import location from './documents/location.js'
 import organization from './documents/organization.js'
-import speaker from './documents/speaker.js'
+import person from './documents/person.js'
 
 export default createSchema({
   // We name our schema
@@ -16,7 +16,7 @@ export default createSchema({
     tag,
     attendee,
     location,
-    speaker,
+    person,
     organization
   ]),
 })

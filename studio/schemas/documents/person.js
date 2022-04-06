@@ -1,6 +1,6 @@
 export default {
-   title: 'Speaker',
-   name: 'speaker',
+   title: 'Person',
+   name: 'person',
    type: 'document',
    fields: [
       {
@@ -11,7 +11,7 @@ export default {
       {
          title: 'Organization',
          name: 'organization',
-         type: 'array',
+         type: 'string',
          of: [{
             type: 'reference',
             to: [{type: 'organization'}], 
