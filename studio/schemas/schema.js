@@ -8,6 +8,7 @@ import location from './documents/location.js'
 import organization from './documents/organization.js'
 import person from './documents/person.js'
 
+
 export default createSchema({
   // We name our schema
   name: 'default',
@@ -17,6 +18,7 @@ export default createSchema({
     attendee,
     location,
     person,
-    organization
+    organization,
+
   ]),
 })

@@ -7,6 +7,7 @@ export default {
          title: 'Title',
          name: 'title',
          type: 'string',
+         validation: Rule => Rule.required().error('This field is required')
       },
       {
          title: 'Description',
@@ -16,11 +17,12 @@ export default {
       {
          title: 'Location',
          name: 'location',
-         type: 'string',
+         type: 'array',
          of: [{
             type: 'reference',
             to: [{type: 'location'}], 
-         }]
+         }],
+         validation: Rule => Rule.required().error('This field is required')
       },
       {
          title: 'Hosts',
@@ -29,7 +31,8 @@ export default {
          of: [{
             type: 'reference',
             to: [{type: 'person'}, {type: 'organization'}], 
-         }]
+         }],
+         validation: Rule => Rule.required().error('This field is required')
       },
       {
          title: 'Speakers',
@@ -46,7 +49,8 @@ export default {
          type: 'image',
          options: {
             hotspot: true // redigering inni sanity
-         }
+         },
+         validation: Rule => Rule.required().warning('Banner picture is recommended')
       },
       {
          title: 'Price',
