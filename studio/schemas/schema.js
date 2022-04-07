@@ -3,7 +3,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 import event from './documents/event.js'
 import tag from './documents/tag.js'
-import attendee from './documents/attendee.js'
+import attendee from './documents/attendee.js' // not in use yet
 import location from './documents/location.js'
 import organization from './documents/organization.js'
 import person from './documents/person.js'
@@ -15,7 +15,6 @@ export default createSchema({
   types: schemaTypes.concat([
     event,
     tag,
-    attendee,
     location,
     person,
     organization,
