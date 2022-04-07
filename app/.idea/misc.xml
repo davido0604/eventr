@@ -6,7 +6,10 @@
         <entry key="app/src/main/res/drawable/background.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/background1.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/background2.xml" value="0.197" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.203" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/searchview_background.xml" value="0.203" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.29013671875" />
         <entry key="app/src/main/res/layout/event_cell.xml" value="0.21563262939453123" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.36041666666666666" />

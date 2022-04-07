@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#006BFF"
+        android:backgroundTint="#8ABBFF"
         android:fontFamily="@font/kufam"
         android:text="les mer"
         android:textAlignment="center"

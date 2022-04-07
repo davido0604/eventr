@@ -35,7 +35,6 @@
         android:layout_width="match_parent"
         android:layout_height="377dp"
         android:layout_margin="0dp"
-        android:layout_marginTop="1dp"
         android:background="@drawable/background1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -139,7 +138,7 @@
                 android:textColor="#000000"
                 android:topLeftRadius="50dp"
                 android:topRightRadius="50dp"
-                app:backgroundTint="#006BFF" />
+                app:backgroundTint="#8ABBFF" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
