@@ -75,7 +75,7 @@ export default {
          options: {
             dateFormat: 'DD-MMM-YYYY',
             timeFormat: 'HH:mm',
-            timeStep: 15,
+            timeStep: 16,
             calenderTodatLabel: 'Today'
          }
       },
@@ -86,7 +86,7 @@ export default {
          options: {
             dateFormat: 'DD-MMM-YYYY',
             timeFormat: 'HH:mm',
-            timeStep: 15,
+            timeStep: 16,
             calenderTodatLabel: 'Today'
          }
       },
