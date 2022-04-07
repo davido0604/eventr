@@ -13,8 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-        lateinit var bottomNavigationView: BottomNavigationView
-
+    lateinit var bottomNavigationView: BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,15 +21,10 @@ class MainActivity : AppCompatActivity() {
 
         bottomNavigationView = findViewById(R.id.bottomNavigationView)
 
-        val navController = findNavController(R.id.fragmentContainerView)
+        val navController = findNavController(R.id.nav_host_fragment)
         val appBarConfiguration = AppBarConfiguration(setOf(R.id.searchMainFragment, R.id.profileFragment))
         setupActionBarWithNavController(navController, appBarConfiguration)
         supportActionBar?.hide()
-
-        supportFragmentManager.commit {
-            setReorderingAllowed(true)
-            replace<LoginFragment>(R.id.fragmentContainerView)
-        }
     }
 
     fun hideNavBar() {

@@ -3,7 +3,7 @@
 
     <item
         android:id="@+id/searchMainFragment"
-        android:title="Søk"
+        android:title="Events"
         android:icon="@drawable/ic_search"
         />
     <item

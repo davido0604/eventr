@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".EventPageFragment">
+
+
+    <ImageView
+        android:id="@+id/event_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/event_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Event Title"
+        android:textColor="#040404"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event_image" />
+
+    <ScrollView
+        android:id="@+id/event_page_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        android:layout_margin="0dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/background1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/event_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/event_page_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="By: Oslo"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Dato: 01.01.2000"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Adresse: Osloveien 30"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Pris: 1000 kr"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_host"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Arrangør: Oslo"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_speaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Tallere: Oslo mate"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/event_page_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:text="Beskrivelse: Beskrivelse"
+                android:textColor="#151515"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/sign_up_btn"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/roundedbutton"
+                android:bottomLeftRadius="50dp"
+                android:bottomRightRadius="50dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Meld deg på!"
+                android:textColor="#000000"
+                android:topLeftRadius="50dp"
+                android:topRightRadius="50dp"
+                app:backgroundTint="#006BFF" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
