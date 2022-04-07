@@ -7,6 +7,7 @@ export default {
          title: 'Name',
          name: 'name',
          type: 'string',
+         validation: Rule => Rule.required().error('This field is required')
       },
       {
          title: 'Organization',
