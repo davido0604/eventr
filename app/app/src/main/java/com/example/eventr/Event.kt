@@ -14,6 +14,8 @@ class Event(
     var endDateAndTime: String,
     var hosts: Host,
     var location: Location,
+    var picture: String
+
 
 
 ) {
@@ -30,6 +32,7 @@ class Host(
 class Location(
     address: String,
     city: List<String>,
+    venue : String,
 
 ) {
 
@@ -38,5 +41,11 @@ class Location(
 class City(
 
 ) {
+
+}
+
+class Venue(
+
+){
 
 }
