@@ -70,7 +70,7 @@ export default {
       },
       {
          title: 'Start date and time',
-         name: 'StartDateAndTime',
+         name: 'startDateAndTime',
          type: 'datetime',
          options: {
             dateFormat: 'DD-MMM-YYYY',
@@ -81,7 +81,7 @@ export default {
       },
       {
          title: 'End date and time',
-         name: 'EndDateAndTime',
+         name: 'endDateAndTime',
          type: 'datetime',
          options: {
             dateFormat: 'DD-MMM-YYYY',
