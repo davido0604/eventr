@@ -32,8 +32,6 @@ class LoginFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 
-
-
         loginButton = view.findViewById(R.id.loginbtn)
         username = view.findViewById(R.id.username)
         password = view.findViewById(R.id.password)
