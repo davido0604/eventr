@@ -55,7 +55,8 @@ export default {
       {
          title: 'Price',
          name: 'price',
-         type: 'string',
+         type: 'number',
+         description: 'if the event is free, leave blank'
       },
       {
          title: 'Tags',
@@ -74,6 +75,7 @@ export default {
          options: {
             dateFormat: 'DD-MMM-YYYY',
             timeFormat: 'HH:mm',
+            timeStep: 15,
             calenderTodatLabel: 'Today'
          }
       },
@@ -84,6 +86,7 @@ export default {
          options: {
             dateFormat: 'DD-MMM-YYYY',
             timeFormat: 'HH:mm',
+            timeStep: 15,
             calenderTodatLabel: 'Today'
          }
       },
