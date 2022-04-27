@@ -87,7 +87,7 @@ export default {
             dateFormat: 'DD-MMM-YYYY',
             timeFormat: 'HH:mm',
             timeStep: 15,
-            calenderTodatLabel: 'Today'
+            calenderTodayLabel: 'Today'
          }
       },
    ]
