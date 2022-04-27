@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.SearchView
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.commit
 import androidx.fragment.app.replace
@@ -25,6 +26,7 @@ class SearchMainFragment : Fragment() {
     lateinit var layoutManager: LinearLayoutManager
     lateinit var queue: RequestQueue
     private val viewModel: SearchMainViewModel by activityViewModels()
+    lateinit var searchView: SearchView
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,6 +38,7 @@ class SearchMainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        searchView = view.findViewById(R.id.search_view)
         layoutManager = LinearLayoutManager(activity)
         recyclerView = view.findViewById(R.id.recyclerView)
         queue = Volley.newRequestQueue(activity)

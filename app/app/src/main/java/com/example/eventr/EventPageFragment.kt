@@ -79,7 +79,7 @@ class EventPageFragment : Fragment() {
         eventAddress.text = "Adresse: $addressText"
         eventPrice.text = "Pris: ${viewModel.event.price.toString()}kr"
         eventHost.text = "Arrangør: $hostText"
-        eventSpeaker.text = "Tallere: må fikses"
+        eventSpeaker.text = "Tallere: Steve Jobs"
         eventDescription.text = "Beskrivelse: ${viewModel.event.description}"
         eventSignUpBtn.setOnClickListener {
             
